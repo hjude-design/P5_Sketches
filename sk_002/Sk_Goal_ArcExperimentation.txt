@@ -1,3 +1,0 @@
-ARC experimentation
-
-Use sketch to explore function and uses of the arc function
