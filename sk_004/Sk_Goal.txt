@@ -6,3 +6,9 @@ sketch should
 2- full justify text with thick bars sepparating the words
 3- Be responsive to all screen sizes
 4- feed into a graphics  that can be modified to warp the text
+
+create phraseChunk class goals
+    - should take in the words needed
+    - should create a text box for each part of the text thats the full width of the section minus padding
+    - should add a filled rect between each justified part of text
+    - should break to a new line for each new itteration of the class
