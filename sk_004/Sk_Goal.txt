@@ -1,1 +1,8 @@
-On The train to jersey, lets have some fun
+Testing for website header
+
+sketch should
+
+1- create a flexible layout to say "Hey ${variable name}, lets ${verb} something ${adjective}"
+2- full justify text with thick bars sepparating the words
+3- Be responsive to all screen sizes
+4- feed into a graphics  that can be modified to warp the text
