@@ -1,10 +1,8 @@
 let words = [
-    'hey',
-    'you',
-    'lets',
-    'create',
-    'someting',
-    'remarkable'
+    ['hey', 'you'],
+    ['lets', 'create'],
+    ['someting'],
+    ['remarkable']
 ];
 
 function setup(){
@@ -22,5 +20,4 @@ class phraseChunk{
     constructor(words){
         this.words = words;
     }
-
 }
