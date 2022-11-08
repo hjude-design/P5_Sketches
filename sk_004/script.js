@@ -23,20 +23,23 @@ function setup(){
 
 
     noStroke();
-    blendMode(MULTIPLY);
 
-    
+    blendMode(SCREEN);
 
-    drawIntro(spacer, barHeight);
 }
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
-
-    drawIntro(spacer, barHeight);
   }
 
 function draw(){
+    clear();
+
+    fill(75,75,75);
+    circle(mouseX, mouseY, windowWidth/8);
+
+    drawIntro(spacer, barHeight);
+
 }
 
 function drawIntro(spacer, barHeight){
@@ -77,7 +80,7 @@ function drawIntro(spacer, barHeight){
                 gap.end -= textWidth(word) - spacer;
             }
 
-            fill('#000000');
+            fill(30,30,30);
             text(word,Pad,lineHeight,lineWidth);
 
             wordWidth += textWidth(word);
